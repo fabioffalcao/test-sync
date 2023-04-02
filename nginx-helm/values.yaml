@@ -32,7 +32,7 @@ podSecurityContext: {}
   # runAsUser: 1001
 
 service:
-  type: NodePort
+  type: ClusterIP
   port: 80
 
 resources:
