@@ -4,7 +4,7 @@
 
 replicaCount: 1
 
-fqdn: "nxing.local"
+fqdn: "nginx.local"
 image:
   repository: nginx
   pullPolicy: IfNotPresent
